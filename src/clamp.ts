@@ -3,5 +3,5 @@ export function clamp(
   lower: number,
   upper: number,
 ): number {
-  return Math.min(value, Math.max(lower, upper))
+  return Math.min(upper, Math.max(lower, value))
 }
