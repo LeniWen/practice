@@ -2,12 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
+  margin-top: 1rem;
 }
 
 .progress {
   width: 100%;
   background-color: rgb(233, 236, 239);
   border-radius: 9999px;
+  height: 0.5rem;
 }
 
 .progress-bar {
@@ -17,4 +19,13 @@
   border-radius: 9999px;
   overflow: hidden;
   text-align: center;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition-duration: 2000ms;
+  transition-property: transform;
+  transition-timing-function: linear;
+}
+
+.progress-bar-filled {
+  transform: scaleX(1);
 }
