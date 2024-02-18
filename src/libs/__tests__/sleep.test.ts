@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import { sleep } from 'bun'
+import { sleep } from '../sleep'
 
 describe('sleep', () => {
   test('block', async () => {
