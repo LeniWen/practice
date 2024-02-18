@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "components": "bun run ./src/components/entry.ts"
+  },
   "dependencies": {},
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",

@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.progress {
+  width: 100%;
+  background-color: rgb(233, 236, 239);
+  border-radius: 9999px;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+  color: white;
+  height: 100%;
+  border-radius: 9999px;
+  overflow: hidden;
+  text-align: center;
+}
