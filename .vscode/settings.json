@@ -39,5 +39,6 @@
     "jsonc",
     "yaml",
     "toml"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
